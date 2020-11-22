@@ -15,21 +15,23 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
-            <li class="active" id="home"><a href="#">Home</a></li>
+            <li class="active" id="home"><a href="#">Domov</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kategorie<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#" id="category" >Kategoria 1</a></li>
                 </ul>
             </li>
+            <li id="orders" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-list-alt"></span> Objednávky</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"  id="shopingCart"><span class="glyphicon glyphicon-shopping-cart"></span> Košík</a></li>
+            <li id="settings" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-wrench"></span> Nastavenia</a></li>
 
             <li id="login" style="display: inline" class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="glyphicon glyphicon-log-in"></span> Prihlasenie
                 </a>
-                <div class="dropdown-menu p-6">
+                <div class="dropdown-menu p-4">
                     <form class="form-horizontal" method="post" accept-charset="UTF-8">
                         <input class="form-control login" type="text" name="username2" placeholder="e-mail alebo login">
                         <input class="form-control login" type="text" name="password2" placeholder="Heslo">

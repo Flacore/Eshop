@@ -1,0 +1,81 @@
+<body>
+<h3 class="text-center">Nastavenia</h3>
+<form>
+    <hr>
+
+    <div id="registration_form">
+        <div id="loginInfo">
+            <h4 id="passChangeText" class="text-center" onclick="showPassChange()">Zmeniť Heslo ⇓</h4>
+            <div id="passChange" style="display: none"><form>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="old-psw"><b>Staré Heslo</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="password" placeholder="Zadaj staré heslo" name="old-psw" id="old-psw" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="new-psw"><b>Nové Heslo</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="password" placeholder="Zadaj nové heslo" name="new-psw" id="new-psw" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="psw-repeat"><b>Zopakujte nové Heslo</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="password" placeholder="Zopakuj nové heslo" name="psw-repeat" id="psw-repeat" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-right"><button type="button">Zmeniť</button></div>
+                </div>
+            </form></div>
+        </div>
+
+        <hr>
+
+        <div id="personalInfo">
+            <h4 id="infoChangeText" class="text-center" onclick="showInfoChange()">Zmeniť Osobné Informácia ⇓</h4>
+            <div id="infoChange" style="display: none"><form>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="first-name"><b>Krstné meno</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj meno" name="first-name" id="first-name" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="last-name"><b>Priezvisko</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj priezvisko" name="last-name" id="last-name" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="telephone"><b>Telefóne číslo</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="tel" placeholder="Zadaj telefóne číslo" name="telephone" id="telephone" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="e-mail"><b>e-Mail</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="email" placeholder="Zadaj e-mail" name="e-mail" id="e-mail" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="adres"><b>Adresa</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj adresu" name="adres" id="adres" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="post-code"><b>Poštové číslo</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj poštové číslo" name="post-code" id="post-code" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="city"><b>Mesto</b></label></div>
+                    <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj mesto" name="city" id="city" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center"><label for="state"><b>Štát</b></label></div>
+                    <div class="col-sm-6 text-center">
+                        <select id="state" name="state" style="padding-top: 5px; width: 168px;">
+                            <option value="svk">Slovenská republika</option>
+                            <option value="cz">Česká republika</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-right"><button type="button">Zmeniť</button></div>
+                </div>
+            </form></div>
+        </div>
+
+
+    </div>
+   <hr><br>
+
+</form>
+</body>
