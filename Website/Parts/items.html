@@ -5,10 +5,39 @@
     <h1>Nazov kategorie</h1>
 
     <div class="container-fluid filter">
-        <h3>Filterovat:</h3>
-        <div class="Slider">
-
-        </div>
+        <form>
+            <h3>Filterovat:</h3>
+            <div class="row text-center" id="showListText" onclick="showList()"><a>Zobrazit podkategorie ⇓</a></div>
+            <div class="row" id="subcategoryList" style="display: none">
+                <div class="col-sm-4 text-center">
+                    <input type="checkbox" id="subcategory1" name="subcategory1" value="sub1" checked>
+                    <label for="subcategory1"> Podkategoria 1</label>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <input type="checkbox" id="subcategory2" name="subcategory2" value="sub2" checked>
+                    <label for="subcategory2"> Podkategoria 2</label>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <input type="checkbox" id="subcategory3" name="subcategory3" value="sub3" checked>
+                    <label for="subcategory3"> Podkategoria 3</label>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-6 text-left">
+                        <label for="itemSort">Radenie:</label>
+                        <select id="itemSort" name="itemSort">
+                            <option value="priceUp">Cena zostupne</option>
+                            <option value="priceDown">Cena vzostupne</option>
+                            <option value="nameDown">Nazvo zostupne</option>
+                            <option value="nameUp">Nazov vzostupne</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <input type="submit" value="Potvrď zmeny">
+                    </div>
+            </div>
+            <br>
+        </form>
     </div>
 
     <div id="item">

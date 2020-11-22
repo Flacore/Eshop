@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894a4f43-1750-4ee2-9f8f-3b1a75fd84bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Website/CSS/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/CSS/design.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/Parts/shoping_cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/Parts/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/Parts/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/Parts/loading_content.js" beforeDir="false" afterPath="$PROJECT_DIR$/Website/Parts/loading_content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605989465160</updated>
-      <workItem from="1605989466820" duration="20462000" />
+      <workItem from="1605989466820" duration="26801000" />
     </task>
     <task id="LOCAL-00001" summary="menu push">
       <created>1605995231530</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606011039985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="item list finish {without filter}">
+      <created>1606057395284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606057395284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="menu push" />
     <MESSAGE value="item list 20%" />
-    <option name="LAST_COMMIT_MESSAGE" value="item list 20%" />
+    <MESSAGE value="item list finish {without filter}" />
+    <option name="LAST_COMMIT_MESSAGE" value="item list finish {without filter}" />
   </component>
 </project>
