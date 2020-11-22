@@ -24,3 +24,11 @@ body{
     border-width: 1px;
     border-style: solid;
 }
+
+.item_img{
+    width: auto;
+    height: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
