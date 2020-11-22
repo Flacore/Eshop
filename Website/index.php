@@ -24,8 +24,22 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"  id="shopingCart"><span class="glyphicon glyphicon-shopping-cart"></span> Košík</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registracia</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Prihlasenie</a></li>
+
+            <li id="login" style="display: inline" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-log-in"></span> Prihlasenie
+                </a>
+                <div class="dropdown-menu p-6">
+                    <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                        <input class="form-control login" type="text" name="username2" placeholder="e-mail alebo login">
+                        <input class="form-control login" type="text" name="password2" placeholder="Heslo">
+                        <input class="btn btn-primary text-center" type="button" name="submit" value="Prihlásiť sa">
+                    </form>
+                </div>
+            </li>
+            <li id="registration" style="display: inline"><a><span class="glyphicon glyphicon-user"></span> Registracia</a></li>
+
+            <li id="logout" style="display: none"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Odhlásiť sa</a></li>
         </ul>
     </div>
 </nav>

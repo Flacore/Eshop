@@ -8,8 +8,10 @@ $(document).ready( function() {
     $("#shopingCart").on("click", function() {
         $("#content").load("Parts/shoping_cart.html");
     });
+    $("#registration").on("click", function() {
+        $("#content").load("Parts/registrate.html");
+    });
 });
-
 
 function load_home() {
     $("#content").load("Parts/home.html");
