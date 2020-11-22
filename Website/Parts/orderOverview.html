@@ -1,0 +1,102 @@
+<body>
+
+    <h3 class="text-center">Objednávky</h3>
+
+    <div id="orderInfoFilter">
+        <hr>
+        <h3>Filterovat:</h3>
+        <form >
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                    <label for="vehicle1">Zaradené</label>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
+                    <label for="vehicle2">Vybavené</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-sm-6 text-left">
+                    <label for="itemSort">Radenie:</label>
+                    <select id="itemSort" name="itemSort">
+                        <option value="DatumUp">Od najnovšej</option>
+                        <option value="DatumDown" selected>Od najstaršej</option>
+                    </select>
+                </div>
+                <div class="col-sm-6 text-right"><input type="submit" value="Potvrď"></div>
+            </div>
+        </form>
+    </div>
+
+    <div id="orderInfo">
+        <hr>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-sm-4 text-center"><h4>Objednavka cislo: 3151</h4></div>
+                <div class="col-sm-4 text-center"><h4>Datum vytvorenia: 22/11/2020</h4></div>
+                <div class="col-sm-4 text-center"><h4>Stav objednávky: Nevybavená</h4></div>
+            </div>
+
+            <div class="row">
+                <div onclick="showOrderInfo()" id="openOrderInfo" class="col-sm-4 text-center" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-triangle-bottom"></span>Rozbaliť objednávku</a></div>
+                <div onclick="showOrderInfo()" id="closeOrderInfo" class="col-sm-4 text-center" style="display: none"><a><span class="glyphicon glyphicon glyphicon glyphicon-triangle-top"></span>Zbaliť objednávku</a></div>
+                <div class="col-sm-4 text-center"><a href="#"  id="print"><span class="glyphicon glyphicon-print"></span>Vytlačiť</a></div>
+                <div class="col-sm-4 text-center"><a href="#"  id="checked"><span class="glyphicon glyphicon-saved"></span>Potvrdiť spracovanie</a></div>
+            </div>
+
+            <div class="row" id="orderInfoDetail" style="display: none">
+                <div style="width: 90%; margin-left: 5%">
+                    <hr style="border-color: black; border-width: 2px">
+                        <div><h3 class="text-center">Objednávateľ</h3>
+                            <table style="width: 100%; ">
+                                <tr>
+                                    <th class="text-center">Meno</th>
+                                    <td class="text-center">Janko Hrasko</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Telefóne číslo</th>
+                                    <td class="text-center">56456465</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">e-mail</th>
+                                    <td class="text-center">Jackson</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Adresa, PSC</th>
+                                    <td class="text-center">Jackson 48 / 01010</td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Mesto, Štát</th>
+                                    <td class="text-center">Žilina, Slovenská republika</td>
+                                </tr>
+                            </table>
+                        </div>
+                    <hr style="border-color: black; border-width: 2px">
+                        <div><h3 class="text-center">Detail objednávky</h3>
+                            <table class="orderItemInfo" style="width: 100%; ">
+                                <tr style="background-color: grey; color: white">
+                                    <th colspan="1" class="text-center">Počet</th>
+                                    <th colspan="8" class="text-center">Názov</th>
+                                    <th colspan="1" class="text-center">Cena</th>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" class="text-center">1x</td>
+                                    <td colspan="8" class="text-center">Picture Organic - BASEMENT CORK TEE</td>
+                                    <td colspan="1" class="text-center">32 €</td>
+                                </tr>
+                                <tr style="background-color: grey; color: white">
+                                    <th colspan="9" class="text-center">Suma</th>
+                                    <td colspan="1"  class="text-center">32 €</td>
+                                </tr>
+                            </table>
+                        </div>
+                    <hr style="border-color: black; border-width: 2px">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+</body>

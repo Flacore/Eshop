@@ -16,16 +16,17 @@
     <div class="container-fluid">
         <ul class="nav navbar-nav">
             <li class="active" id="home"><a href="#">Domov</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kategorie<span class="caret"></span></a>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" >Kategorie<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#" id="category" >Kategoria 1</a></li>
+                    <li><a id="category1" >Kategoria 1</a></li>
+                    <li><a id="category2">Kategoria 2</a></li>
                 </ul>
             </li>
-            <li id="orders" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-list-alt"></span> Objednávky</a></li>
+            <li id="orders" style="display: none"><a><span class="glyphicon glyphicon glyphicon-list-alt"></span> Objednávky</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"  id="shopingCart"><span class="glyphicon glyphicon-shopping-cart"></span> Košík</a></li>
-            <li id="settings" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-wrench"></span> Nastavenia</a></li>
+            <li id="settings" style="display: none"><a><span class="glyphicon glyphicon glyphicon-wrench"></span> Nastavenia</a></li>
 
             <li id="login" style="display: inline" class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

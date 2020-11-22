@@ -1,5 +1,8 @@
 $(document).ready( function() {
-    $("#category").on("click", function() {
+    $("#category2").on("click", function() {
+        $("#content").load("Parts/items.html");
+    });
+    $("#category1").on("click", function() {
         $("#content").load("Parts/items.html");
     });
     $("#home").on("click", function() {
@@ -63,5 +66,20 @@ function showInfoChange() {
     }else{
         node.style.display = 'inline';
         text.innerText='Zmeniť Osobné Informácia ⇑';
+    }
+}
+
+function showOrderInfo() {
+    var node1 = document.getElementById('closeOrderInfo');
+    var node2 = document.getElementById('openOrderInfo');
+    var display = document.getElementById('orderInfoDetail');
+    if(node2.style.display == "inline"){
+        node2.style.display ='none';
+        node1.style.display ='inline';
+        display.style.display ='inline';
+    }else{
+        node1.style.display ='none';
+        node2.style.display ='inline';
+        display.style.display ='none';
     }
 }
