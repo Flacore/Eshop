@@ -10,3 +10,17 @@ body{
     border-width: 1px;
     border-style: solid;
 }
+
+.filter{
+    background-color: ghostwhite;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.item{
+    background-color: gray;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}

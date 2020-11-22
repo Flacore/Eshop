@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894a4f43-1750-4ee2-9f8f-3b1a75fd84bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySQL - model/Database_import_script.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/CSS/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/CSS/design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
   <component name="ProjectId" id="1kcANPhrJu6fbzA5Y0yc3ElaFFu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -43,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\PHPprojectForlder\Eshop\Website\CSS" />
       <recent name="F:\xampp\htdocs\PHPprojectForlder\Eshop\Website" />
     </key>
   </component>
@@ -68,11 +71,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605989465160</updated>
-      <workItem from="1605989466820" duration="2653000" />
+      <workItem from="1605989466820" duration="12906000" />
     </task>
+    <task id="LOCAL-00001" summary="menu push">
+      <created>1605995231530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605995231531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="menu push">
+      <created>1605995378064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605995378064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="menu push">
+      <created>1606004950278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606004950278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="menu push" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu push" />
   </component>
 </project>
