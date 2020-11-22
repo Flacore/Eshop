@@ -1,0 +1,12 @@
+body{
+    background-color: whitesmoke !important;
+    width: auto;
+    height: 100%;
+}
+
+.container{
+    background-color: lightgray;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
