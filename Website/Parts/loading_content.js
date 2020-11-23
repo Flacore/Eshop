@@ -33,7 +33,7 @@ function load_home() {
 }
 
 function finishOrder() {
-    $("#content").load("Parts/buy.html");
+
 }
 
 function showList() {

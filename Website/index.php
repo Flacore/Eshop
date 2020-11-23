@@ -23,8 +23,8 @@
                 </ul>
             </li>
             <li id="orders" style="display: none"><a><span class="glyphiconglyphicon-list-alt"></span> Objednávky</a></li>
-            <li id="prodManager" style="display: inline"><a><span class="glyphicon glyphicon-level-up"></span> Manager Produktov</a></li>
-            <li id="catManager" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-check"></span> Manager Kategórií</a></li>
+            <li id="prodManager" style="display: none"><a><span class="glyphicon glyphicon-level-up"></span> Manager Produktov</a></li>
+            <li id="catManager" style="display: none"><a><span class="glyphicon glyphicon glyphicon-check"></span> Manager Kategórií</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"  id="shopingCart"><span class="glyphicon glyphicon-shopping-cart"></span> Košík</a></li>
