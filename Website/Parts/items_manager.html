@@ -1,0 +1,102 @@
+<body>
+    <h3 class="text-center">Manager Produktov</h3>
+
+    <div id="orderInfoFilter">
+        <hr>
+        <div class="row">
+            <div class="col-sm-6 text-center"><a onclick="productManager()"  id="findItemButton"><span class="glyphicon lyphicon glyphicon-search"></span> Vyhladávanie</a></div>
+            <div class="col-sm-6 text-center"><a onclick="addProduct()"  id="addItemButton"><span class="glyphicon glyphicon glyphicon-plus-sign"></span> Pridaj Produkt</a></div>
+        </div>
+
+        <div id="addItem" style="display: none">
+            <br><hr style="width: 80%">
+            <div class="row">
+                <div class="col-sm-6 text-center"><h5>Zadaj názov</h5></div>
+                <div class="col-sm-6 text-center"><input type="text" placeholder="Zadaj nazov" name="iName" id="iName" required></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center"><h5>Vlož obrázok</h5></div>
+                <div class="col-sm-6 text-center">
+                    <input type="file" id="selectedFile" style="display: none;" />
+                    <input type="button" value="Vložiť súbor" onclick="document.getElementById('selectedFile').click();" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center"><h5>Zadaj cenu</h5></div>
+                <div class="col-sm-6 text-center">
+                    <input type="number" min="0" max="99999999" placeholder="0" name="price1" id="price1" required style="width: 90px">
+                    <a>.</a>
+                    <input type="number" min="0" max="99" placeholder="0" name="price2" id="price2" required style="width: 40px">
+                    <a>€</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center"><h5>Zadaj popis produktu</h5></div>
+                <div class="col-sm-12 text-center">
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"
+                              style="max-width: 80%; max-height:  400px;min-width: 20%; min-height:  100px">
+                    </textarea>
+                </div>
+            </div>
+            <div class="row" style="width: 90%">
+                <div class="col-sm-12 text-right"><button>Potvrď</button></div>
+            </div>
+        </div>
+
+        <div id="findItem" style="display: none">
+            <br><hr style="width: 80%">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <input type="checkbox" id="cat1" name="cat1" value="cat1" checked>
+                    <label for="cat1">Zaradené</label>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6 text-center"><span class="glyphicon lyphicon glyphicon-search">
+                    <input type="text" placeholder="Hladaný názov" name="search" id="search">
+                </span></div>
+                <div class="col-sm-6 text-center"><button onclick="searchForProduct()">Potvrď</button></div>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+    <div id="searchColumItem" style="display: none">
+        <div id="nothingFound" style="display: none">
+            <h4 class="text-center">Nenašiel sa žiadny záznam</h4>
+        </div>
+
+        <div id="itemFound" style="display: inline">
+            <h3 class="item_name text-center">Picture Organic - BASEMENT CORK TEE</h3>
+            <div class="row">
+                <div class="col-sm-2 text-center">
+                    <img class="item_img" src="https://cdn.aboutstatic.com/file/images/436a7edc706b4a93e758617f3dd01e79.png?width=2000&height=2666&quality=75&bg=F4F4F5&trim=1">
+                </div>
+                <div class="col-sm-10">
+                    <div class="row text-center" style="height: 160px; overflow: auto">
+                        <b>
+                            Funkčné tričko 'BASEMENT CORK TEE'
+                        </b>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-center"><h4>Cena: 32 €</h4></div>
+                        <div class="col-sm-3 text-right">
+                            <a id="editItem"><span class="glyphicon glyphicon glyphicon-plus-sign"></span>Uprav</a>
+                        </div>
+                        <div class="col-sm-3 text-left">
+                            <a id="deleteItem"><span class="glyphicon glyphicon glyphicon-pencil"></span>Vymaž</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div id="itemSpacing" style="display: none">
+            <br><hr style="width: 80%; border-color: black">
+        </div>
+        <hr>
+    </div>
+</body>

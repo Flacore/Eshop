@@ -22,11 +22,13 @@
                     <li><a id="category2">Kategoria 2</a></li>
                 </ul>
             </li>
-            <li id="orders" style="display: none"><a><span class="glyphicon glyphicon glyphicon-list-alt"></span> Objednávky</a></li>
+            <li id="orders" style="display: none"><a><span class="glyphiconglyphicon-list-alt"></span> Objednávky</a></li>
+            <li id="prodManager" style="display: inline"><a><span class="glyphicon glyphicon-level-up"></span> Manager Produktov</a></li>
+            <li id="catManager" style="display: inline"><a><span class="glyphicon glyphicon glyphicon-check"></span> Manager Kategórií</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"  id="shopingCart"><span class="glyphicon glyphicon-shopping-cart"></span> Košík</a></li>
-            <li id="settings" style="display: none"><a><span class="glyphicon glyphicon glyphicon-wrench"></span> Nastavenia</a></li>
+            <li id="settings" style="display: none"><a><span class="glyphicon glyphicon-wrench"></span> Nastavenia</a></li>
 
             <li id="login" style="display: inline" class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -1,7 +1,14 @@
 body{
     background-color: whitesmoke !important;
     width: auto;
+    margin: 0;
     height: 100%;
+}
+
+.banner{
+    display:block;
+    width:100%; height:100%;
+    object-fit: cover;
 }
 
 .container{

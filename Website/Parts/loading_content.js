@@ -6,7 +6,7 @@ $(document).ready( function() {
         $("#content").load("Parts/items.html");
     });
     $("#home").on("click", function() {
-        $("#content").load("Parts/home.html");
+        load_home();
     });
     $("#shopingCart").on("click", function() {
         $("#content").load("Parts/shoping_cart.html");
@@ -19,6 +19,12 @@ $(document).ready( function() {
     });
     $("#settings").on("click", function() {
         $("#content").load("Parts/settings.html");
+    });
+    $("#catManager").on("click", function() {
+        $("#content").load("Parts/category_manager.html");
+    });
+    $("#prodManager").on("click", function() {
+        $("#content").load("Parts/items_manager.html");
     });
 });
 
@@ -82,4 +88,35 @@ function showOrderInfo() {
         node2.style.display ='inline';
         display.style.display ='none';
     }
+}
+
+function addProduct() {
+    var node1 = document.getElementById('addItem');
+    var node2 = document.getElementById('findItem');
+    var node3 = document.getElementById('searchColumItem');
+    if(node1.style.display == "inline"){
+        node1.style.display ='none';
+    }else{
+        node1.style.display ='inline';
+    }
+    node2.style.display ='none';
+    node3.style.display ='none';
+}
+
+function productManager() {
+    var node1 = document.getElementById('addItem');
+    var node2 = document.getElementById('findItem');
+    var node3 = document.getElementById('searchColumItem');
+    if(node2.style.display == "inline"){
+        node2.style.display ='none';
+    }else{
+        node2.style.display ='inline';
+    }
+    node1.style.display ='none';
+    node3.style.display ='none';
+}
+
+function searchForProduct() {
+    var node = document.getElementById('searchColumItem');
+    node.style.display ='inline';
 }

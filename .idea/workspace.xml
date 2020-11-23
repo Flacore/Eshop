@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894a4f43-1750-4ee2-9f8f-3b1a75fd84bc" name="Default Changelist" comment="">
+    <list default="true" id="894a4f43-1750-4ee2-9f8f-3b1a75fd84bc" name="Default Changelist" comment="Prehlad objednavok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/CSS/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/CSS/design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/Parts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/Parts/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/Parts/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/Parts/items.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/Parts/loading_content.js" beforeDir="false" afterPath="$PROJECT_DIR$/Website/Parts/loading_content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/index.php" afterDir="false" />
@@ -72,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605989465160</updated>
-      <workItem from="1605989466820" duration="46361000" />
+      <workItem from="1605989466820" duration="55691000" />
     </task>
     <task id="LOCAL-00001" summary="menu push">
       <created>1605995231530</created>
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606077362808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Prehlad objednavok">
+      <created>1606088621459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606088621459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +159,7 @@
     <MESSAGE value="*item list finish {without filter}&#10;*shoping cart {only 1pc from item}" />
     <MESSAGE value="*Registration" />
     <MESSAGE value="*Settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="*Settings" />
+    <MESSAGE value="Prehlad objednavok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prehlad objednavok" />
   </component>
 </project>
