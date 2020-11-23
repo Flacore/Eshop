@@ -116,3 +116,58 @@ function searchForProduct() {
     var node = document.getElementById('searchColumItem');
     node.style.display ='inline';
 }
+
+function asAdmin() {
+    document.getElementById('logout').style.display == 'inline';
+    document.getElementById('orders').style.display == 'inline';
+    document.getElementById('prodManager').style.display == 'inline';
+    document.getElementById('catManager').style.display == 'inline';
+    document.getElementById('settings').style.display == 'inline';
+    document.getElementById('home').style.display == 'inline';
+
+    document.getElementById('shopingCart').style.display == 'none';
+    document.getElementById('dropCategory').style.display == 'none';
+    document.getElementById('registration').style.display == 'none';
+    document.getElementById('login').style.display == 'none';
+}
+
+function asUser() {
+    document.getElementById('logout').style.display == 'inline';
+    document.getElementById('home').style.display == 'inline';
+    document.getElementById('settings').style.display == 'inline';
+    document.getElementById('shopingCart').style.display == 'inline';
+    document.getElementById('dropCategory').style.display == 'inline';
+
+    document.getElementById('login').style.display == 'none';
+    document.getElementById('registration').style.display == 'none';
+    document.getElementById('orders').style.display == 'none';
+    document.getElementById('prodManager').style.display == 'none';
+    document.getElementById('catManager').style.display == 'none';
+}
+
+function asNotUser() {
+    document.getElementById('login').style.display == 'inline';
+    document.getElementById('home').style.display == 'inline';
+    document.getElementById('registration').style.display == 'inline';
+    document.getElementById('shopingCart').style.display == 'inline';
+    document.getElementById('dropCategory').style.display == 'inline';
+
+    document.getElementById('logout').style.display == 'none';
+    document.getElementById('settings').style.display == 'none';
+    document.getElementById('orders').style.display == 'none';
+    document.getElementById('prodManager').style.display == 'none';
+    document.getElementById('catManager').style.display == 'none';
+}
+
+function asTester() {
+    document.getElementById('logout').style.display == 'inline';
+    document.getElementById('orders').style.display == 'inline';
+    document.getElementById('prodManager').style.display == 'inline';
+    document.getElementById('catManager').style.display == 'inline';
+    document.getElementById('settings').style.display == 'inline';
+    document.getElementById('home').style.display == 'inline';
+    document.getElementById('shopingCart').style.display == 'inline';
+    document.getElementById('dropCategory').style.display == 'inline';
+    document.getElementById('registration').style.display == 'inline';
+    document.getElementById('login').style.display == 'inline';
+}

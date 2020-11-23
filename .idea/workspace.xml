@@ -70,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605989465160</updated>
-      <workItem from="1605989466820" duration="58000000" />
+      <workItem from="1605989466820" duration="60222000" />
     </task>
     <task id="LOCAL-00001" summary="menu push">
       <created>1605995231530</created>
@@ -156,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606100359662</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finish design">
+      <created>1606100760112</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606100760112</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finish design">
+      <created>1606100837185</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606100837185</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +186,7 @@
     <MESSAGE value="Prehlad objednavok" />
     <MESSAGE value="Manager produktov" />
     <MESSAGE value="Manager categorii" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manager categorii" />
+    <MESSAGE value="Finish design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish design" />
   </component>
 </project>
