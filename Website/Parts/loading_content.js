@@ -32,10 +32,6 @@ function load_home() {
     $("#content").load("Parts/home.html");
 }
 
-function finishOrder() {
-
-}
-
 function showList() {
     var node = document.getElementById('subcategoryList')
     var text = document.getElementById('showListText')
